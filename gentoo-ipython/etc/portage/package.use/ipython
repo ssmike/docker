@@ -1,0 +1,3 @@
+dev-python/ipython matplotlib notebook nbconvert
+dev-lang/python sqlite
+dev-python/numpy lapack
