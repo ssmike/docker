@@ -1,10 +1,10 @@
 FROM ubuntu
-MAINTAINER Surin Mikhail <surinmike@gmail.com>
+MAINTAINER Mikhail Surin <surinmike@gmail.com>
 
 ADD root /root
 RUN chmod 700 /root/.jupyter
 
-RUN apt-cache update && \
+RUN apt-get update && \
     apt-get install --no-install-recommends && \
                     ipython3-notebook && \
                     python3-numpy && \
