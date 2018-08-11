@@ -1,0 +1,6 @@
+bindkey "[C" forward-word
+bindkey "[D" backward-word
+bindkey "[1~" beginning-of-line
+bindkey "[4~" end-of-line
+bindkey "OC" forward-char
+bindkey "OD" backward-char
